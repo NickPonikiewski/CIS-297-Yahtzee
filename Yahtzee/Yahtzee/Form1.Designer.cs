@@ -73,6 +73,15 @@
             this.DieFivelabel = new System.Windows.Forms.Label();
             this.PosAns = new System.Windows.Forms.ListBox();
             this.ChoseAnsButton = new System.Windows.Forms.Button();
+            this.KeepLabel = new System.Windows.Forms.Label();
+            this.KeepD1Label = new System.Windows.Forms.Label();
+            this.KeepD2Label = new System.Windows.Forms.Label();
+            this.KeepD3Label = new System.Windows.Forms.Label();
+            this.KeepD4Label = new System.Windows.Forms.Label();
+            this.KeepD5Label = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.CurrTurnLabel = new System.Windows.Forms.Label();
+            this.PlayAGButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // OnesLabel
@@ -213,7 +222,7 @@
             // OnesAnsLabel
             // 
             this.OnesAnsLabel.AutoSize = true;
-            this.OnesAnsLabel.Location = new System.Drawing.Point(109, 1);
+            this.OnesAnsLabel.Location = new System.Drawing.Point(88, 1);
             this.OnesAnsLabel.Name = "OnesAnsLabel";
             this.OnesAnsLabel.Size = new System.Drawing.Size(0, 13);
             this.OnesAnsLabel.TabIndex = 15;
@@ -221,7 +230,7 @@
             // TwosAnsLabel
             // 
             this.TwosAnsLabel.AutoSize = true;
-            this.TwosAnsLabel.Location = new System.Drawing.Point(109, 14);
+            this.TwosAnsLabel.Location = new System.Drawing.Point(88, 14);
             this.TwosAnsLabel.Name = "TwosAnsLabel";
             this.TwosAnsLabel.Size = new System.Drawing.Size(0, 13);
             this.TwosAnsLabel.TabIndex = 16;
@@ -229,7 +238,7 @@
             // ThreesAnsLabel
             // 
             this.ThreesAnsLabel.AutoSize = true;
-            this.ThreesAnsLabel.Location = new System.Drawing.Point(109, 27);
+            this.ThreesAnsLabel.Location = new System.Drawing.Point(88, 27);
             this.ThreesAnsLabel.Name = "ThreesAnsLabel";
             this.ThreesAnsLabel.Size = new System.Drawing.Size(0, 13);
             this.ThreesAnsLabel.TabIndex = 17;
@@ -237,7 +246,7 @@
             // SixesAnsLabel
             // 
             this.SixesAnsLabel.AutoSize = true;
-            this.SixesAnsLabel.Location = new System.Drawing.Point(109, 66);
+            this.SixesAnsLabel.Location = new System.Drawing.Point(88, 66);
             this.SixesAnsLabel.Name = "SixesAnsLabel";
             this.SixesAnsLabel.Size = new System.Drawing.Size(0, 13);
             this.SixesAnsLabel.TabIndex = 20;
@@ -245,7 +254,7 @@
             // FivesAnsLabel
             // 
             this.FivesAnsLabel.AutoSize = true;
-            this.FivesAnsLabel.Location = new System.Drawing.Point(109, 53);
+            this.FivesAnsLabel.Location = new System.Drawing.Point(88, 53);
             this.FivesAnsLabel.Name = "FivesAnsLabel";
             this.FivesAnsLabel.Size = new System.Drawing.Size(0, 13);
             this.FivesAnsLabel.TabIndex = 19;
@@ -253,7 +262,7 @@
             // FoursAnsLabel
             // 
             this.FoursAnsLabel.AutoSize = true;
-            this.FoursAnsLabel.Location = new System.Drawing.Point(109, 40);
+            this.FoursAnsLabel.Location = new System.Drawing.Point(88, 40);
             this.FoursAnsLabel.Name = "FoursAnsLabel";
             this.FoursAnsLabel.Size = new System.Drawing.Size(0, 13);
             this.FoursAnsLabel.TabIndex = 18;
@@ -261,7 +270,7 @@
             // FourKindAnsLabel
             // 
             this.FourKindAnsLabel.AutoSize = true;
-            this.FourKindAnsLabel.Location = new System.Drawing.Point(109, 105);
+            this.FourKindAnsLabel.Location = new System.Drawing.Point(88, 105);
             this.FourKindAnsLabel.Name = "FourKindAnsLabel";
             this.FourKindAnsLabel.Size = new System.Drawing.Size(0, 13);
             this.FourKindAnsLabel.TabIndex = 23;
@@ -269,7 +278,7 @@
             // ThreeKindAnsLabel
             // 
             this.ThreeKindAnsLabel.AutoSize = true;
-            this.ThreeKindAnsLabel.Location = new System.Drawing.Point(109, 92);
+            this.ThreeKindAnsLabel.Location = new System.Drawing.Point(88, 92);
             this.ThreeKindAnsLabel.Name = "ThreeKindAnsLabel";
             this.ThreeKindAnsLabel.Size = new System.Drawing.Size(0, 13);
             this.ThreeKindAnsLabel.TabIndex = 22;
@@ -277,7 +286,7 @@
             // SumAnsLabel
             // 
             this.SumAnsLabel.AutoSize = true;
-            this.SumAnsLabel.Location = new System.Drawing.Point(109, 79);
+            this.SumAnsLabel.Location = new System.Drawing.Point(88, 79);
             this.SumAnsLabel.Name = "SumAnsLabel";
             this.SumAnsLabel.Size = new System.Drawing.Size(0, 13);
             this.SumAnsLabel.TabIndex = 21;
@@ -285,7 +294,7 @@
             // LargeStraightAnsLabel
             // 
             this.LargeStraightAnsLabel.AutoSize = true;
-            this.LargeStraightAnsLabel.Location = new System.Drawing.Point(109, 144);
+            this.LargeStraightAnsLabel.Location = new System.Drawing.Point(88, 144);
             this.LargeStraightAnsLabel.Name = "LargeStraightAnsLabel";
             this.LargeStraightAnsLabel.Size = new System.Drawing.Size(0, 13);
             this.LargeStraightAnsLabel.TabIndex = 26;
@@ -293,7 +302,7 @@
             // SmallStraightAnsLabel
             // 
             this.SmallStraightAnsLabel.AutoSize = true;
-            this.SmallStraightAnsLabel.Location = new System.Drawing.Point(109, 131);
+            this.SmallStraightAnsLabel.Location = new System.Drawing.Point(88, 131);
             this.SmallStraightAnsLabel.Name = "SmallStraightAnsLabel";
             this.SmallStraightAnsLabel.Size = new System.Drawing.Size(0, 13);
             this.SmallStraightAnsLabel.TabIndex = 25;
@@ -301,7 +310,7 @@
             // FullHouseAnsLabel
             // 
             this.FullHouseAnsLabel.AutoSize = true;
-            this.FullHouseAnsLabel.Location = new System.Drawing.Point(109, 118);
+            this.FullHouseAnsLabel.Location = new System.Drawing.Point(88, 118);
             this.FullHouseAnsLabel.Name = "FullHouseAnsLabel";
             this.FullHouseAnsLabel.Size = new System.Drawing.Size(0, 13);
             this.FullHouseAnsLabel.TabIndex = 24;
@@ -309,7 +318,7 @@
             // TotalScoreAnsLabel
             // 
             this.TotalScoreAnsLabel.AutoSize = true;
-            this.TotalScoreAnsLabel.Location = new System.Drawing.Point(109, 183);
+            this.TotalScoreAnsLabel.Location = new System.Drawing.Point(88, 183);
             this.TotalScoreAnsLabel.Name = "TotalScoreAnsLabel";
             this.TotalScoreAnsLabel.Size = new System.Drawing.Size(0, 13);
             this.TotalScoreAnsLabel.TabIndex = 29;
@@ -317,7 +326,7 @@
             // YahtzeeAnsLabel
             // 
             this.YahtzeeAnsLabel.AutoSize = true;
-            this.YahtzeeAnsLabel.Location = new System.Drawing.Point(109, 170);
+            this.YahtzeeAnsLabel.Location = new System.Drawing.Point(88, 170);
             this.YahtzeeAnsLabel.Name = "YahtzeeAnsLabel";
             this.YahtzeeAnsLabel.Size = new System.Drawing.Size(0, 13);
             this.YahtzeeAnsLabel.TabIndex = 28;
@@ -325,14 +334,14 @@
             // ChanceAnsLabel
             // 
             this.ChanceAnsLabel.AutoSize = true;
-            this.ChanceAnsLabel.Location = new System.Drawing.Point(109, 157);
+            this.ChanceAnsLabel.Location = new System.Drawing.Point(88, 157);
             this.ChanceAnsLabel.Name = "ChanceAnsLabel";
             this.ChanceAnsLabel.Size = new System.Drawing.Size(0, 13);
             this.ChanceAnsLabel.TabIndex = 27;
             // 
             // RollDiceButton
             // 
-            this.RollDiceButton.Location = new System.Drawing.Point(122, 277);
+            this.RollDiceButton.Location = new System.Drawing.Point(136, 235);
             this.RollDiceButton.Name = "RollDiceButton";
             this.RollDiceButton.Size = new System.Drawing.Size(75, 23);
             this.RollDiceButton.TabIndex = 30;
@@ -342,7 +351,7 @@
             // 
             // DieOneButton
             // 
-            this.DieOneButton.Location = new System.Drawing.Point(53, 248);
+            this.DieOneButton.Location = new System.Drawing.Point(67, 206);
             this.DieOneButton.Name = "DieOneButton";
             this.DieOneButton.Size = new System.Drawing.Size(41, 23);
             this.DieOneButton.TabIndex = 31;
@@ -352,7 +361,7 @@
             // 
             // DieTwoButton
             // 
-            this.DieTwoButton.Location = new System.Drawing.Point(100, 248);
+            this.DieTwoButton.Location = new System.Drawing.Point(114, 206);
             this.DieTwoButton.Name = "DieTwoButton";
             this.DieTwoButton.Size = new System.Drawing.Size(41, 23);
             this.DieTwoButton.TabIndex = 32;
@@ -362,7 +371,7 @@
             // 
             // DieThreeButton
             // 
-            this.DieThreeButton.Location = new System.Drawing.Point(147, 248);
+            this.DieThreeButton.Location = new System.Drawing.Point(161, 206);
             this.DieThreeButton.Name = "DieThreeButton";
             this.DieThreeButton.Size = new System.Drawing.Size(41, 23);
             this.DieThreeButton.TabIndex = 33;
@@ -372,7 +381,7 @@
             // 
             // DieFourButton
             // 
-            this.DieFourButton.Location = new System.Drawing.Point(194, 248);
+            this.DieFourButton.Location = new System.Drawing.Point(208, 206);
             this.DieFourButton.Name = "DieFourButton";
             this.DieFourButton.Size = new System.Drawing.Size(41, 23);
             this.DieFourButton.TabIndex = 34;
@@ -382,7 +391,7 @@
             // 
             // DieFiveButton
             // 
-            this.DieFiveButton.Location = new System.Drawing.Point(241, 248);
+            this.DieFiveButton.Location = new System.Drawing.Point(255, 206);
             this.DieFiveButton.Name = "DieFiveButton";
             this.DieFiveButton.Size = new System.Drawing.Size(41, 23);
             this.DieFiveButton.TabIndex = 35;
@@ -393,7 +402,7 @@
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(2, 253);
+            this.Label1.Location = new System.Drawing.Point(16, 211);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(45, 13);
             this.Label1.TabIndex = 36;
@@ -402,7 +411,7 @@
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(2, 222);
+            this.Label2.Location = new System.Drawing.Point(261, 9);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(33, 13);
             this.Label2.TabIndex = 37;
@@ -411,59 +420,59 @@
             // DieOnelabel
             // 
             this.DieOnelabel.AutoSize = true;
-            this.DieOnelabel.Location = new System.Drawing.Point(56, 222);
+            this.DieOnelabel.Location = new System.Drawing.Point(261, 27);
             this.DieOnelabel.Name = "DieOnelabel";
-            this.DieOnelabel.Size = new System.Drawing.Size(38, 13);
+            this.DieOnelabel.Size = new System.Drawing.Size(52, 13);
             this.DieOnelabel.TabIndex = 38;
-            this.DieOnelabel.Text = "Die 1: ";
+            this.DieOnelabel.Text = "Die One: ";
             // 
             // DieTwolabel
             // 
             this.DieTwolabel.AutoSize = true;
-            this.DieTwolabel.Location = new System.Drawing.Point(100, 222);
+            this.DieTwolabel.Location = new System.Drawing.Point(261, 40);
             this.DieTwolabel.Name = "DieTwolabel";
-            this.DieTwolabel.Size = new System.Drawing.Size(38, 13);
+            this.DieTwolabel.Size = new System.Drawing.Size(53, 13);
             this.DieTwolabel.TabIndex = 39;
-            this.DieTwolabel.Text = "Die 2: ";
+            this.DieTwolabel.Text = "Die Two: ";
             // 
             // DieThreelabel
             // 
             this.DieThreelabel.AutoSize = true;
-            this.DieThreelabel.Location = new System.Drawing.Point(144, 222);
+            this.DieThreelabel.Location = new System.Drawing.Point(261, 53);
             this.DieThreelabel.Name = "DieThreelabel";
-            this.DieThreelabel.Size = new System.Drawing.Size(38, 13);
+            this.DieThreelabel.Size = new System.Drawing.Size(60, 13);
             this.DieThreelabel.TabIndex = 40;
-            this.DieThreelabel.Text = "Die 3: ";
+            this.DieThreelabel.Text = "Die Three: ";
             // 
             // DieFourlabel
             // 
             this.DieFourlabel.AutoSize = true;
-            this.DieFourlabel.Location = new System.Drawing.Point(191, 222);
+            this.DieFourlabel.Location = new System.Drawing.Point(260, 66);
             this.DieFourlabel.Name = "DieFourlabel";
-            this.DieFourlabel.Size = new System.Drawing.Size(38, 13);
+            this.DieFourlabel.Size = new System.Drawing.Size(53, 13);
             this.DieFourlabel.TabIndex = 41;
-            this.DieFourlabel.Text = "Die 4: ";
+            this.DieFourlabel.Text = "Die Four: ";
             // 
             // DieFivelabel
             // 
             this.DieFivelabel.AutoSize = true;
-            this.DieFivelabel.Location = new System.Drawing.Point(238, 222);
+            this.DieFivelabel.Location = new System.Drawing.Point(260, 79);
             this.DieFivelabel.Name = "DieFivelabel";
-            this.DieFivelabel.Size = new System.Drawing.Size(38, 13);
+            this.DieFivelabel.Size = new System.Drawing.Size(52, 13);
             this.DieFivelabel.TabIndex = 42;
-            this.DieFivelabel.Text = "Die 5: ";
+            this.DieFivelabel.Text = "Die Five: ";
             // 
             // PosAns
             // 
             this.PosAns.FormattingEnabled = true;
-            this.PosAns.Location = new System.Drawing.Point(162, 12);
+            this.PosAns.Location = new System.Drawing.Point(135, 12);
             this.PosAns.Name = "PosAns";
             this.PosAns.Size = new System.Drawing.Size(120, 95);
             this.PosAns.TabIndex = 43;
             // 
             // ChoseAnsButton
             // 
-            this.ChoseAnsButton.Location = new System.Drawing.Point(194, 118);
+            this.ChoseAnsButton.Location = new System.Drawing.Point(161, 113);
             this.ChoseAnsButton.Name = "ChoseAnsButton";
             this.ChoseAnsButton.Size = new System.Drawing.Size(75, 23);
             this.ChoseAnsButton.TabIndex = 44;
@@ -471,11 +480,101 @@
             this.ChoseAnsButton.UseVisualStyleBackColor = true;
             this.ChoseAnsButton.Click += new System.EventHandler(this.ChoseAnsButton_Click);
             // 
+            // KeepLabel
+            // 
+            this.KeepLabel.AutoSize = true;
+            this.KeepLabel.Location = new System.Drawing.Point(16, 261);
+            this.KeepLabel.Name = "KeepLabel";
+            this.KeepLabel.Size = new System.Drawing.Size(35, 13);
+            this.KeepLabel.TabIndex = 45;
+            this.KeepLabel.Text = "Keep:";
+            // 
+            // KeepD1Label
+            // 
+            this.KeepD1Label.AutoSize = true;
+            this.KeepD1Label.Location = new System.Drawing.Point(54, 261);
+            this.KeepD1Label.Name = "KeepD1Label";
+            this.KeepD1Label.Size = new System.Drawing.Size(21, 13);
+            this.KeepD1Label.TabIndex = 46;
+            this.KeepD1Label.Text = "D1";
+            // 
+            // KeepD2Label
+            // 
+            this.KeepD2Label.AutoSize = true;
+            this.KeepD2Label.Location = new System.Drawing.Point(81, 261);
+            this.KeepD2Label.Name = "KeepD2Label";
+            this.KeepD2Label.Size = new System.Drawing.Size(21, 13);
+            this.KeepD2Label.TabIndex = 47;
+            this.KeepD2Label.Text = "D2";
+            // 
+            // KeepD3Label
+            // 
+            this.KeepD3Label.AutoSize = true;
+            this.KeepD3Label.Location = new System.Drawing.Point(108, 261);
+            this.KeepD3Label.Name = "KeepD3Label";
+            this.KeepD3Label.Size = new System.Drawing.Size(21, 13);
+            this.KeepD3Label.TabIndex = 48;
+            this.KeepD3Label.Text = "D3";
+            // 
+            // KeepD4Label
+            // 
+            this.KeepD4Label.AutoSize = true;
+            this.KeepD4Label.Location = new System.Drawing.Point(135, 261);
+            this.KeepD4Label.Name = "KeepD4Label";
+            this.KeepD4Label.Size = new System.Drawing.Size(21, 13);
+            this.KeepD4Label.TabIndex = 49;
+            this.KeepD4Label.Text = "D4";
+            // 
+            // KeepD5Label
+            // 
+            this.KeepD5Label.AutoSize = true;
+            this.KeepD5Label.Location = new System.Drawing.Point(163, 261);
+            this.KeepD5Label.Name = "KeepD5Label";
+            this.KeepD5Label.Size = new System.Drawing.Size(21, 13);
+            this.KeepD5Label.TabIndex = 50;
+            this.KeepD5Label.Text = "D5";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(276, 277);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(32, 13);
+            this.label3.TabIndex = 51;
+            this.label3.Text = "Turn:";
+            // 
+            // CurrTurnLabel
+            // 
+            this.CurrTurnLabel.AutoSize = true;
+            this.CurrTurnLabel.Location = new System.Drawing.Point(315, 277);
+            this.CurrTurnLabel.Name = "CurrTurnLabel";
+            this.CurrTurnLabel.Size = new System.Drawing.Size(0, 13);
+            this.CurrTurnLabel.TabIndex = 52;
+            // 
+            // PlayAGButton
+            // 
+            this.PlayAGButton.Location = new System.Drawing.Point(264, 251);
+            this.PlayAGButton.Name = "PlayAGButton";
+            this.PlayAGButton.Size = new System.Drawing.Size(75, 23);
+            this.PlayAGButton.TabIndex = 53;
+            this.PlayAGButton.Text = "Play Again";
+            this.PlayAGButton.UseVisualStyleBackColor = true;
+            this.PlayAGButton.Click += new System.EventHandler(this.PlayAGButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(289, 306);
+            this.ClientSize = new System.Drawing.Size(348, 292);
+            this.Controls.Add(this.PlayAGButton);
+            this.Controls.Add(this.CurrTurnLabel);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.KeepD5Label);
+            this.Controls.Add(this.KeepD4Label);
+            this.Controls.Add(this.KeepD3Label);
+            this.Controls.Add(this.KeepD2Label);
+            this.Controls.Add(this.KeepD1Label);
+            this.Controls.Add(this.KeepLabel);
             this.Controls.Add(this.ChoseAnsButton);
             this.Controls.Add(this.PosAns);
             this.Controls.Add(this.DieFivelabel);
@@ -575,6 +674,15 @@
         private System.Windows.Forms.Label DieFivelabel;
         private System.Windows.Forms.ListBox PosAns;
         private System.Windows.Forms.Button ChoseAnsButton;
+        private System.Windows.Forms.Label KeepLabel;
+        private System.Windows.Forms.Label KeepD1Label;
+        private System.Windows.Forms.Label KeepD2Label;
+        private System.Windows.Forms.Label KeepD3Label;
+        private System.Windows.Forms.Label KeepD4Label;
+        private System.Windows.Forms.Label KeepD5Label;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label CurrTurnLabel;
+        private System.Windows.Forms.Button PlayAGButton;
     }
 }
 
