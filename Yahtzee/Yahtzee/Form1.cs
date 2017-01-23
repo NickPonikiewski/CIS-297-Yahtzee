@@ -316,7 +316,8 @@ namespace Yahtzee
             ChoseAnsButton.Enabled = true; OnesAnsLabel.Text = ""; TwosAnsLabel.Text = ""; ThreesAnsLabel.Text = ""; FoursAnsLabel.Text = ""; FivesAnsLabel.Text = "";
             SixesAnsLabel.Text = ""; ThreeKindAnsLabel.Text = ""; FourKindAnsLabel.Text = ""; FullHouseAnsLabel.Text = ""; SmallStraightAnsLabel.Text = "";
             LargeStraightAnsLabel.Text = ""; YahtzeeAnsLabel.Text = ""; ChanceAnsLabel.Text = ""; DieOnelabel.Text = "Die One: "; DieTwolabel.Text = "Die Two: "; DieThreelabel.Text = "Die Three: ";
-            DieFourlabel.Text = "Die Four: "; DieFivelabel.Text = "Die Five: "; KeepD1Label.Text = "D1"; KeepD2Label.Text = "D2"; KeepD3Label.Text = "D3"; KeepD4Label.Text = "D4"; KeepD5Label.Text = "D5"; 
+            DieFourlabel.Text = "Die Four: "; DieFivelabel.Text = "Die Five: "; KeepD1Label.Text = "D1"; KeepD2Label.Text = "D2"; KeepD3Label.Text = "D3"; KeepD4Label.Text = "D4"; KeepD5Label.Text = "D5";
+            SumAnsLabel.Text = ""; TotalScoreAnsLabel.Text = ""; CurrTurnLabel.Text = "";  
         }
 
         private int UpperSection(int numb)

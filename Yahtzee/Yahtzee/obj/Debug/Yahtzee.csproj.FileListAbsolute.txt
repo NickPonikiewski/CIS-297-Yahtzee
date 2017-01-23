@@ -16,3 +16,12 @@ C:\Users\Kyle Ponikiewski\Documents\Visual Studio 2015\Projects\CIS-297-Yahtzee\
 C:\Users\Kyle Ponikiewski\Documents\Visual Studio 2015\Projects\CIS-297-Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.Form1.resources
 C:\Users\Kyle Ponikiewski\Documents\Visual Studio 2015\Projects\CIS-297-Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.Properties.Resources.resources
 C:\Users\Kyle Ponikiewski\Documents\Visual Studio 2015\Projects\CIS-297-Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csproj.GenerateResource.Cache
+C:\Users\nponikie\Desktop\GitHub\CIS-297-Yahtzee\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe.config
+C:\Users\nponikie\Desktop\GitHub\CIS-297-Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.exe
+C:\Users\nponikie\Desktop\GitHub\CIS-297-Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.pdb
+C:\Users\nponikie\Desktop\GitHub\CIS-297-Yahtzee\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe
+C:\Users\nponikie\Desktop\GitHub\CIS-297-Yahtzee\Yahtzee\Yahtzee\bin\Debug\Yahtzee.pdb
+C:\Users\nponikie\Desktop\GitHub\CIS-297-Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csprojResolveAssemblyReference.cache
+C:\Users\nponikie\Desktop\GitHub\CIS-297-Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.Form1.resources
+C:\Users\nponikie\Desktop\GitHub\CIS-297-Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.Properties.Resources.resources
+C:\Users\nponikie\Desktop\GitHub\CIS-297-Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csproj.GenerateResource.Cache
