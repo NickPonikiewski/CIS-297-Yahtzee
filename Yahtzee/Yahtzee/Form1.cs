@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//This is old
 namespace Yahtzee
 {
     public partial class Form1 : Form
