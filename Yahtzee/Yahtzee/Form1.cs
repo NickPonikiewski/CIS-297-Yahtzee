@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//Hi
+//github
 namespace Yahtzee
 {
     public partial class Form1 : Form

@@ -1,5 +1,6 @@
 ﻿namespace Yahtzee
 {
+    //hi
     partial class Form1
     {
         /// <summary>
